@@ -150,15 +150,11 @@
 
       <!-- Photo card -->
       <article class="bento-card reveal reveal-delay-1 relative overflow-hidden rounded-3xl border border-cream-warm/80 bg-white/70 shadow-card backdrop-blur-sm lg:col-span-5">
-        <div class="photo-shimmer flex h-full min-h-[280px] flex-col items-center justify-center p-8 sm:min-h-[320px]">
-          <div class="mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-white/80 shadow-card">
-            <svg class="h-12 w-12 text-blush-dark/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-            </svg>
-          </div>
-          <p class="text-center text-sm font-medium text-ink-faint">Your lifestyle photo here</p>
-          <p class="mt-1 text-center text-xs text-ink-faint/70">Replace with a warm, approachable portrait</p>
-        </div>
+        <img
+          src="images/profile.jpg"
+          alt="Janice Lee in graduation regalia, smiling with a bouquet of flowers"
+          class="h-full min-h-[280px] w-full object-cover object-top sm:min-h-[320px]"
+        />
       </article>
     </section>
 
@@ -173,23 +169,21 @@
 
       <div class="grid gap-4 sm:grid-cols-2">
         <article class="bento-card rounded-3xl border border-cream-warm/80 bg-white/70 p-6 shadow-card backdrop-blur-sm sm:p-7">
-          <div class="mb-3 flex items-center gap-3">
-            <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-matcha/15 text-lg">🎓</span>
-            <div>
-              <h3 class="font-display text-lg font-semibold text-ink">Durham University</h3>
-              <p class="text-sm font-medium text-matcha-dark">BSc in Environmental Geoscience</p>
-            </div>
+          <div class="flex items-start justify-between gap-4">
+            <span class="rounded-lg bg-sage/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-sage-dark">MSc</span>
+            <span class="text-sm font-medium tabular-nums text-ink-faint">2025</span>
           </div>
+          <h3 class="mt-4 font-display text-lg font-semibold leading-snug text-ink">Hong Kong University of Science and Technology</h3>
+          <p class="mt-1.5 text-sm leading-relaxed text-ink-muted">Environmental Science and Management <span class="text-ink-faint">(EVSM)</span></p>
         </article>
 
         <article class="bento-card rounded-3xl border border-cream-warm/80 bg-white/70 p-6 shadow-card backdrop-blur-sm sm:p-7">
-          <div class="mb-3 flex items-center gap-3">
-            <span class="flex h-10 w-10 items-center justify-center rounded-xl bg-sage/20 text-lg">🎓</span>
-            <div>
-              <h3 class="font-display text-lg font-semibold text-ink">Hong Kong University of Science and Technology</h3>
-              <p class="text-sm font-medium text-sage-dark">MSc in Environmental Science and Management (EVSM)</p>
-            </div>
+          <div class="flex items-start justify-between gap-4">
+            <span class="rounded-lg bg-matcha/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-matcha-dark">BSc</span>
+            <span class="text-sm font-medium tabular-nums text-ink-faint">2023</span>
           </div>
+          <h3 class="mt-4 font-display text-lg font-semibold leading-snug text-ink">Durham University</h3>
+          <p class="mt-1.5 text-sm leading-relaxed text-ink-muted">Environmental Geoscience</p>
         </article>
       </div>
     </section>
@@ -461,8 +455,9 @@
             </svg>
           </a>
           <a
-            href="mailto:janiceuk2@gmail.com"
-            aria-label="Email"
+            href="mailto:janiceuk2@gmail.com?subject=Hello%20Janice"
+            aria-label="Email Janice at janiceuk2@gmail.com"
+            title="Email janiceuk2@gmail.com"
             class="group flex h-12 w-12 items-center justify-center rounded-2xl border border-cream-warm bg-white/80 text-ink shadow-card transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-blush-dark hover:bg-blush/20 hover:shadow-card-hover"
           >
             <svg class="h-5 w-5 transition-colors duration-300 group-hover:text-terracotta-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
